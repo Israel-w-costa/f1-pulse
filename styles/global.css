@@ -167,11 +167,11 @@ footer > span:nth-child(4) {
    
     header{
     padding: 1rem;
-    gap: 0;
+    gap: 0.2rem;
    }
 
    .header-sec2 >li >a{
-    padding: 0.5rem;
+    padding: 0.2rem;
 }
 
 .header-sec2 > li > a > svg {

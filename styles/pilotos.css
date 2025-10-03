@@ -7,6 +7,19 @@
     color:#fff ;
 }
 
+.container-titulo {
+    background:linear-gradient(90deg,#1b1717,#1b1717,#630000);
+    padding: 5rem;
+}
+
+.container-titulo > h1 {
+    font-size: 4rem;
+}
+
+.container-titulo > p {
+    font-size: 1.5rem;
+}
+
 /* Styles pagina piloto */
 
 .carro-mc { background: linear-gradient(90deg, #863400 ,#F47600, #ff9900);}
@@ -140,5 +153,18 @@
         padding: 1rem;
         width: 95%;
     }
+
+.container-titulo {
+    text-align: center;
+}
+
+.container-titulo > h1 {
+    font-size: 2rem;
+    text-wrap: nowrap;
+}
+
+.container-titulo > p {
+    font-size: 0.6rem;
+}
 }
 
