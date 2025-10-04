@@ -6,3 +6,9 @@
 .header-sec2 >li:nth-child(3) > a {
     color:#fff ;
 }
+
+main{ 
+    background-color: chartreuse;
+    width: 80%;
+    margin: 1rem auto;
+}
