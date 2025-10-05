@@ -99,17 +99,10 @@
     color: #fff;
 }
 
-
-.container-equipe> img {
+.imagem-carro {
     margin-top: 2rem;
     width: 70%;
-}
-
-.imagem-carro {
-  width: 80%;
-  max-width: 900px;
-  height: 200px;
-  object-fit: contain;
+    object-fit: contain;
 }
 
 

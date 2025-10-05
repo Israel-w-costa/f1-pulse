@@ -18,6 +18,7 @@ header {
     text-align: center;
     gap: 12rem;
     color: #fff;
+    z-index: 2;
 }
 
 
