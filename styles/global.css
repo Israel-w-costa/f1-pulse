@@ -21,6 +21,14 @@ header {
 }
 
 
+.alinhando-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/** precisa alinhar os botoes do site **/
+
 .header-sec1 {
     display: flex;
     justify-content:center;
