@@ -7,6 +7,10 @@
     color: #fff;
 }
 
+main {
+    background-color: #1e2327;
+}
+
 /* main {
     background-color: rgb(51, 51, 65);
     width: 80%;
@@ -14,17 +18,42 @@
     border-radius: 8px;
 } */
 
+.podium_reference {
+
+    width: 91rem;
+    margin-left: 11.5rem;
+    margin-right: 9.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.color-div {
+    background-color: rgb(9, 9, 12);
+    padding: 1rem;
+}
+
+main div section h1 {
+    display: flex;
+    justify-content:center;
+}
+
+
+
+
+
 .grid-linha {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     align-items: end; 
     gap: 1.2rem;
     padding: 2rem;
+    margin: 1rem 9.5rem 2rem 9.5rem;
+    justify-content: center;
 }
 
 .card {
     display: flex;
-    font-family: Courier New,Courier,monospace;;
+    font-family: Courier New,Courier,monospace;
     justify-content: space-between;
     /* font-family:"BlinkMacSystemFont"; */
     background-color: #2d2d2d;
@@ -72,16 +101,12 @@
     font-size: 1rem;
 }
 
-.card div p:nth-child(5) {
-    
-}
-
 .card img {
     margin-right: 4rem;
 }
 
 .card-lando {
-    background: linear-gradient(to right, #F47600, #000000);
+    background: linear-gradient(to right, #F47600, #683200);
     color: white;
     border-radius: 8px;
     height: 13.5rem;
@@ -95,7 +120,7 @@
 }
 
 .card-piastri {
-    background: linear-gradient(to right, #F47600, #000000);
+    background: linear-gradient(to right, #F47600, #683200);
     color: white;
     border-radius: 8px;
     height: 14.5rem;
@@ -109,7 +134,7 @@
 }
 
 .card-verstappen {
-    background: linear-gradient(to right, #1E41FF, #000000);
+    background: linear-gradient(to right, #1E41FF, #000d57);
     color: white;
     border-radius: 8px;
     height: 12.5rem;
@@ -134,14 +159,10 @@
 
 
 
-
-
-
-
 table {
     border-collapse: collapse;
     border-radius: 8px;
-    background-color: rgb(51, 51, 65);
+    background-color: rgb(9, 9, 12);
     color: #fff;
     margin: 2rem auto 1rem;
     width: 80%;
@@ -178,6 +199,10 @@ td:last-child {
     text-align: right;
     padding-right: 40px;
     font-weight: 700;
+}
+
+tr:first-child:hover{
+    background-color: rgb(9, 9, 12);
 }
 
 tr:hover {
