@@ -1,4 +1,4 @@
-.header-sec2 > li:nth-child(1) {
+.header-sec2 > li:nth-child(1) a {
     background-color: #dc2626;
     color: #fff;
 }
