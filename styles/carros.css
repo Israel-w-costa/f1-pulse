@@ -19,12 +19,10 @@ main {
 } */
 
 .podium_reference {
-
-    width: 91rem;
-    margin-left: 11.5rem;
-    margin-right: 9.5rem;
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 9rem 2rem 9rem;
 }
 
 .color-div {
@@ -35,7 +33,33 @@ main {
 main div section h1 {
     display: flex;
     justify-content:center;
+    align-items: center;
+    max-width:max-content;
 }
+
+.line-red {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resposive-red {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .line-red{
+        width: 20%;
+    }
+}
+
+
+
 
 
 
@@ -55,7 +79,6 @@ main div section h1 {
     display: flex;
     font-family: Courier New,Courier,monospace;
     justify-content: space-between;
-    /* font-family:"BlinkMacSystemFont"; */
     background-color: #2d2d2d;
     color: #fff;
     padding: 1.5rem;
@@ -151,6 +174,9 @@ main div section h1 {
     margin-top: 1rem;
 }
 
+@media (max-width: 780px){
+    
+}
 
 
 
