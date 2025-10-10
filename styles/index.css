@@ -1,8 +1,116 @@
-.header-sec2 > li:nth-child(1) a {
+.header-sec2>li:nth-child(1) {
     background-color: #dc2626;
     color: #fff;
 }
 
-.header-sec2 >li:nth-child(1) > a {
-    color:#fff ;
+.header-sec2>li:nth-child(1)>a {
+    color: #fff;
+}
+
+.banner {
+    background-image: /*linear-gradient(to bottom, 
+                        rgba(0, 0, 0, 0) 40%,   Transparente até 50% da altura
+                        rgba(0, 0, 0, 0.8) 75%,  Começa a escurecer em 85%
+                        rgba(0, 0, 0, 0.9) 100%), Totalmente escuro na base */
+                        url("../assets/banner.jpeg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
+    background-blend-mode: overlay;
+    height: 500px;
+    width: 100%;
+    background-position: center 30%;
+}
+
+main {
+    background-color: rgb(51, 51, 65);
+    color: #ddd;
+    padding: 80px 150px;
+    background-size: auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+main h2 {
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h4, .p-card {
+    font-size: 13px;
+}
+
+p {
+    font-size: 18px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100; /* Define uma alta prioridade para o header ficar sempre por cima */
+}
+
+.lista-corridas {
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px; 
+    max-width: 1000px;
+}
+
+/* Estilo para cada item da lista (card de corrida) */
+.lista-corridas .card {
+    background-color: #5f5e67;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
+    /* border-left: 5px solid #bc392d; */
+    
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.lista-corridas .card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.6); 
+    cursor: pointer;
+    z-index: 1; /* Garante que o card fique por cima de qualquer elemento vizinho (opcional, mas bom para hover) */
+}
+
+section {
+    margin: 100px;
+    padding: 80px;
+    text-align: left;
+    background-color: #5f5e67;
+    border-radius: 10px;
+}
+
+.info-1,
+.info-2 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-2 {
+    margin-top: 50px;
+}
+
+.info>div>img {
+    width: 50%;
+    height: 400px;
 }
