@@ -21,14 +21,6 @@ header {
     z-index: 2;
 }
 
-
-/* .alinhando-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
-
 .header-sec1 {
     display: flex;
     justify-content:center;

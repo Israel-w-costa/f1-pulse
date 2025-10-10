@@ -11,13 +11,6 @@ main {
     background-color: #1e2327;
 }
 
-/* main {
-    background-color: rgb(51, 51, 65);
-    width: 80%;
-    margin: 1rem auto;
-    border-radius: 8px;
-} */
-
 .podium_reference {
     display: flex;
     justify-content: center;
@@ -116,7 +109,7 @@ main div section h1 {
 
 .card strong {
     font-weight: bold;
-    text-transform:uppercase;
+    text-transform: uppercase;
     color: #fff;
 }
 
@@ -138,6 +131,8 @@ main div section h1 {
 .card-lando img {
     width: 10rem;
     height: 15rem;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit */
+    /* Ao definir altura e comprimento, ja que imagem nao corresponde a proporção ele faz corte da imagem e o object positivo top faz que esse corte comece em cima  */
     object-fit: cover;
     object-position: top;
 }
